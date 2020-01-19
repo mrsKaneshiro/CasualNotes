@@ -4,9 +4,12 @@
 ```js
 var testOBJ={
     init:function(){
+        var initOBJ = 'init_OBJ' 
         this.test='test'
     },
     AA:function () {
+        console.log(initOBJ) //undefined
+        //var声明的本身就是一个局部变量，只能在init函数中使用，即便做了绑定依然无法访问
         this.BB()
     },
     BB:function () {
