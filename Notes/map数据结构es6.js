@@ -38,3 +38,6 @@ console.log('arr',arr)
 
 // map 对象转为 数组---2
 console.log([...map]);
+
+// 判断当前对象是不是可迭代的对象 
+console.log(typeof map[Symbol.iterator]);//返回function
