@@ -13,8 +13,8 @@
 #### 复习笔记
 + 二叉树-前续+中序+后序遍历.js
 + promise对象和async+await.js
-+ map数据结构es6.js
-
++ ES6--map数据结构.js
++ ES6--symbol类型.js
 
 
 
